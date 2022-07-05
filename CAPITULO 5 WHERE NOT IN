@@ -1,0 +1,3 @@
+SELECT * 
+FROM station_data
+WHERE month not in(5,10,12)
