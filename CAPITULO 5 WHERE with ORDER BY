@@ -1,0 +1,6 @@
+SELECT * 
+FROM station_data
+WHERE  year = 2010 
+AND wind_speed > 10.1
+
+ORDER BY station_number DESC

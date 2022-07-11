@@ -1,0 +1,5 @@
+SELECT report_code, coalesce(precipitation, 0) as rainfall
+FROM station_data;
+
+
+

@@ -1,0 +1,3 @@
+SELECT * FROM station_data
+
+WHERE tornado = true OR hail = false;
